@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="com.bestbuy.api.bestbuyapiinfo.ProductCRUDWithSteps" skipped="0" tests="1" time="2.32" timestamp="2022-01-11T14:49:16.712Z[Europe/London]"><testcase classname="com.bestbuy.api.bestbuyapiinfo.ProductCRUDWithSteps" name="Get all the product"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.bestbuy.api.bestbuyinfo.ProductsSteps.getAllProduct(ProductsSteps.java:59)&#13;
+com.bestbuy.api.bestbuyapiinfo.ProductCRUDWithSteps.test003(ProductCRUDWithSteps.java:46)&#13;
+</system-err></testcase></testsuite>

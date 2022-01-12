@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="com.bestbuy.api.bestbuyapiinfo.StoreCRUDWithSteps" skipped="0" tests="4" time="5.25" timestamp="2022-01-12T12:01:33.262+05:30[Asia/Calcutta]"><testcase classname="com.bestbuy.api.bestbuyapiinfo.StoreCRUDWithSteps" name="Create new store record"/><testcase classname="com.bestbuy.api.bestbuyapiinfo.StoreCRUDWithSteps" name="Get All store details"/><testcase classname="com.bestbuy.api.bestbuyapiinfo.StoreCRUDWithSteps" name="Update store details"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.bestbuy.api.bestbuyapiinfo.StoreCRUDWithSteps.test003(StoreCRUDWithSteps.java:46)&#13;
+</system-err></testcase><testcase classname="com.bestbuy.api.bestbuyapiinfo.StoreCRUDWithSteps" name="Delete store data "><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.bestbuy.api.bestbuyapiinfo.StoreCRUDWithSteps.test004(StoreCRUDWithSteps.java:53)&#13;
+</system-err></testcase></testsuite>
